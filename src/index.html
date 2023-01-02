@@ -13,15 +13,18 @@
   </head>
   <body>
     <div class="header">
-      <div class="container container__header">
-        <image class="header--background" src="/images/background.png"></image>
+      <div class="container__header">
+        <image
+          class="header--background bck"
+          src="/images/background.png"
+        ></image>
         <div class="logo">
           <h4>EL TIGRE</h4>
           <h5>VENEZUELA COFFEE BEANS</h5>
         </div>
         <div class="nav">
           <a href="#"><h5>HOME</h5></a>
-          <a href="#"><h5>PRODCTS</h5></a>
+          <a href="#"><h5>PRODUCTS</h5></a>
           <a href="#"><h5>CONTACT</h5></a>
         </div>
 
@@ -38,6 +41,83 @@
         </div>
       </div>
     </div>
+    <article class="products">
+      <div class="products__title">
+        <h2>PRODUCTS</h2>
+        <p></p>
+      </div>
+      <div class="container__products">
+        <div class="row">
+          <div class="col-sm-6 product">
+            <h3>01. LA LAGARTIJA</h3>
+            <div class="product__content">
+              <p class="product__before"></p>
+              <p class="product__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur pariatur dolor deserunt nam quisquam, repellat magni
+                at sint commodi eaque.
+              </p>
+              <div class="product__params">
+                <h5>ROASTING: 5/10</h5>
+                <h5>INTENSITY: 6/10</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 image">
+            <image class="products__image" src="/images/coffee-1.png"></image>
+          </div>
+        </div>
+        <div class="row">
+          <div class="order-sm-2 col-sm-6 product">
+            <h3>02. EL TIGRE</h3>
+            <div class="product__content">
+              <p class="product__before"></p>
+              <p class="product__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur pariatur dolor deserunt nam quisquam, repellat magni
+                at sint commodi eaque.
+              </p>
+              <div class="product__params">
+                <h5>ROASTING: 8/10</h5>
+                <h5>INTENSITY: 9/10</h5>
+              </div>
+            </div>
+          </div>
+          <div class="order-sm-1 col-sm-6 image">
+            <image class="products__image" src="/images/coffee-2.png"></image>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 product">
+            <h3>03. LA CUCARACHA</h3>
+            <div class="product__content">
+              <p class="product__before"></p>
+              <p class="product__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur pariatur dolor deserunt nam quisquam, repellat magni
+                at sint commodi eaque.
+              </p>
+              <div class="product__params">
+                <h5>ROASTING: 3/10</h5>
+                <h5>INTENSITY: 7/10</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 image">
+            <image class="products__image" src="/images/coffee-3.png"></image>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article>
+      <div class="about">
+        <img class="about__background bck" src="/images/about-us.jpg" />
+        <div class="about__title">
+          <h2>ABOUT US</h2>
+          <p></p>
+        </div>
+      </div>
+    </article>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
     <script src="js/app.js" type="module"></script>

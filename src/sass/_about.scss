@@ -1,0 +1,34 @@
+.about {
+  position: relative;
+
+  .about__title {
+    position: absolute;
+    width: 100%;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%);
+    color: $color-gold;
+    text-align: center;
+
+    p::after {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 40vw;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: $color-gold;
+      height: 0.5vw;
+      margin-top: 2vw;
+      margin-bottom: 1vw;
+    }
+
+    h2 {
+      letter-spacing: 10px;
+    }
+  }
+}
+
+.about__background {
+  max-height: 840px;
+}
