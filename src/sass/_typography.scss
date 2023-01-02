@@ -1,3 +1,62 @@
 h1 {
-  font-size: 26px;
+  //font-size: 4.125rem;
+  font-size: 6.5vw;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3.125rem;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.875rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.625rem;
+  margin: 0;
+}
+
+h5 {
+  font-size: 13px;
+  margin: 0;
+}
+
+p {
+  font-size: 10px;
+  margin: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 65px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
+  h5 {
+    font-size: 13px;
+  }
+
+  // p {
+  //   font-size: 10px;
+  // }
+}
+
+@media screen and (max-width: 650px) {
+  .logo {
+    display: none;
+  }
 }
