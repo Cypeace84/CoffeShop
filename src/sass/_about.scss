@@ -10,7 +10,7 @@
     color: $color-gold;
     text-align: center;
 
-    p::after {
+    h2::after {
       position: absolute;
       content: '';
       display: block;
@@ -27,8 +27,23 @@
       letter-spacing: 10px;
     }
   }
-}
 
-.about__background {
-  max-height: 840px;
+  .about__text {
+    color: $color-white;
+    font-style: $font-italic;
+    width: 60%;
+    margin: 40px auto 0 auto;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+
+    .about__text-txt {
+      padding: 2.4vw;
+      font-size: 2.4vw;
+    }
+
+    .about__text-txt:last-child {
+      align-self: flex-end;
+    }
+  }
 }

@@ -1,16 +1,18 @@
 h1 {
   //font-size: 4.125rem;
-  font-size: 6.5vw;
+  font-size: 6vw;
   margin: 0;
 }
 
 h2 {
-  font-size: 3.125rem;
+  //font-size: 3.125rem;
+  font-size: 5rem;
   margin: 0;
 }
 
 h3 {
-  font-size: 1.875rem;
+  //font-size: 1.875rem;
+  font-size: 3rem;
   margin: 0;
   letter-spacing: 2px;
 }
@@ -27,39 +29,76 @@ h5 {
 }
 
 p {
-  font-size: 10px;
+  font-size: 1rem;
   margin: 0;
 }
 
 @media screen and (min-width: 1000px) {
-  h1 {
-    font-size: 65px;
+  p {
+    font-size: 2vw;
   }
 
   h2 {
-    font-size: 50px;
+    font-size: 4vw;
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 3vw;
   }
 
   h4 {
-    font-size: 26px;
+    font-size: 2vw;
   }
 
   h5 {
-    font-size: 13px;
+    font-size: 2vw;
   }
 }
 
-@media screen and (max-width: 650px) {
-  .logo {
-    //display: none;
-    transform: translateY(-20px);
+@media screen and (max-width: 740px) {
+  .container__products {
+    margin-top: 60px;
   }
+
+  .logo h5 {
+    font-size: 2vw;
+  }
+
+  // .price__new h3 {
+  //   font-size: 3rem;
+  // }
 
   .nav h5 {
     font-size: 10px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h1 {
+    font-size: 4vw;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .nav h5 {
+    font-size: 8px;
+  }
+
+  // .price__new h3 {
+  //   font-size: 2rem;
+  // }
+
+  p {
+    font-size: 0.7rem;
   }
 }

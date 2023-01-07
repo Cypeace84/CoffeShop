@@ -1,0 +1,11 @@
+footer {
+  height: 80px;
+  position: relative;
+
+  p {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
