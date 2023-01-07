@@ -8,11 +8,23 @@ export const select = {
     //homePage: '#template-home-page',
   },
   containerOf: {
-    products: '#products-page',
+    pages: '#pages',
+    productsPage: '#page-products',
+    products: '#products',
+    product: '#products-page',
+    about: '#about',
+    contact: '#contact',
   },
+  nav: '.nav a',
 };
 
 export const classNames = {
+  nav: {
+    active: 'active',
+  },
+  pages: {
+    active: 'active',
+  },
   // menuProduct: {
   //   wrapperActive: 'active',
   //   imageVisible: 'active',

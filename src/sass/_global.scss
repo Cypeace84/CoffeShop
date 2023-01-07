@@ -9,6 +9,13 @@ body {
   margin: 0 auto;
 }
 
+article {
+  display: none;
+}
+
+.active {
+  display: block;
+}
 // .one {
 //   background-color: aqua;
 //   height: 100px;

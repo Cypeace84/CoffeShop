@@ -4,24 +4,25 @@
        "id":1,
        "class":"",
        "name":"01. LA LAGARTIJA",
-       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur dolor deserunt nam quisquam, repellat magni at sint commodi eaque.",
+       "description":"LA LAGARTIJA Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur dolor deserunt nam quisquam, repellat magni at sint commodi eaque.",
        "images":[
-        "/images/coffee-1.png"
+        "<img class=\"products__image\" src=\"/images/coffee-1.png\"/>"
        ],
        "roasting":"5/10",
        "intensity":"6/10",
-       "laur":"<image src=\"/images/laur.png\"></image>",
+       "laur":"<img src=\"/images/laur.png\"/>",
        "price-old":"26",
        "price-new":"20"
     },
 
     {
       "id":2,
-      "class":"",
+      "class-content":"order-sm-2",
+      "class-img":"order-sm-1",
       "name":"02. EL TIGRE",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur dolor deserunt nam quisquam, repellat magni at sint commodi eaque.",
+      "description":"EL TIGRE Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur dolor deserunt nam quisquam, repellat magni at sint commodi eaque.",
       "images":[
-       "/images/coffee-2.png"
+       "<img class=\"products__image\" src=\"/images/coffee-2.png\"/>"
       ],
       "roasting":"8/10",
       "intensity":"9/10",
@@ -34,9 +35,9 @@
     "id":3,
     "class":"",
     "name":"03. LA CUCARACHA",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur dolor deserunt nam quisquam, repellat magni at sint commodi eaque.",
+    "description":"LA CUCARACHA Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur dolor deserunt nam quisquam, repellat magni at sint commodi eaque.",
     "images":[
-     "/images/coffee-3.png"
+     "<img class=\"products__image\" src=\"/images/coffee-3.png\"/>"
     ],
     "roasting":"3/10",
     "intensity":"7/10",
