@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffe Store</title>
+    <link
+      rel="stylesheet"
+      href="vendor/flickity/flickity.min.css"
+      media="screen"
+    />
+    <link rel="stylesheet" href="vendor/flickity/range-slider.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,600&display=swap"
@@ -30,10 +36,12 @@
           </div>
         </div>
 
-        <div class="header__title">
-          <h1 class="title--first">HOME OF</h1>
-          <h1 class="title--second">ORIGINAL TASTES</h1>
-          <p></p>
+        <div id="header" class="header__title">
+          <!-- <div class="header__title--flex">
+            <h1 class="title--first">HOME OF</h1>
+            <h1 class="title--second">ORIGINAL TASTES</h1>
+            <p></p>
+          </div> -->
         </div>
         <div class="discover">
           <h4>DISCOVER</h4>
@@ -43,6 +51,68 @@
         </div>
       </div>
     </div>
+    <!-- <div
+      class="carousel"
+      data-flickity='{ "autoPlay": 3000, "pauseAutoPlayOnHover": true }'
+    >
+      <div class="carousel-cell">
+        <div class="about__person">
+          <div class="about__person-img">
+            <img src="/images/elizabeth.png" />
+          </div>
+          <div class="about__person--text">
+            <div class="person__name">
+              <p class="person__name--first">Elizabeth</p>
+              <p class="person__name--second">Doherty</p>
+            </div>
+            <p class="person__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+              temporibus itaque nobis perspiciatis eveniet molestiae beatae
+              quos. Ullam asperiores minima exercitationem, tempore voluptates
+              error odit fuga.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <div class="about__person">
+          <div class="about__person-img">
+            <img src="/images/elizabeth.png" />
+          </div>
+          <div class="about__person--text">
+            <div class="person__name">
+              <p class="person__name--first">Elizabeth</p>
+              <p class="person__name--second">Doherty</p>
+            </div>
+            <p class="person__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+              temporibus itaque nobis perspiciatis eveniet molestiae beatae
+              quos. Ullam asperiores minima exercitationem, tempore voluptates
+              error odit fuga.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <div class="about__person">
+          <div class="about__person-img">
+            <img src="/images/elizabeth.png" />
+          </div>
+          <div class="about__person--text">
+            <div class="person__name">
+              <p class="person__name--first">Elizabeth</p>
+              <p class="person__name--second">Doherty</p>
+            </div>
+            <p class="person__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+              temporibus itaque nobis perspiciatis eveniet molestiae beatae
+              quos. Ullam asperiores minima exercitationem, tempore voluptates
+              error odit fuga.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
     <div id="pages">
       <article id="home">
         <div id="products" class="products">
@@ -57,16 +127,67 @@
             <img class="about__background bck" src="/images/about-us.jpg" />
             <div class="about__title">
               <div><h2>ABOUT US</h2></div>
-              <div class="about__text">
-                <p class="about__text-txt">
-                  Who are we? Just a bunch of friends width a love for a good
-                  coffe and desire to create something new, something original.
-                </p>
-                <p class="about__text-txt">
-                  Our coffees reflect us - young, wild and free. we are on the
-                  journey of new tastes...
-                </p>
-                <p class="about__text-txt">Join us!</p>
+              <div
+                class="carousel"
+                data-flickity='{ "autoPlay": 5000, "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false, "pauseAutoPlayOnHover": true }'
+              >
+                <div class="carousel-cell">
+                  <div class="about__person">
+                    <div class="about__person-img">
+                      <img src="/images/elizabeth.png" />
+                    </div>
+                    <div class="about__person--text">
+                      <div class="person__name">
+                        <p class="person__name--first">Elizabeth</p>
+                        <p class="person__name--second">Doherty</p>
+                      </div>
+                      <p class="person__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolorem, temporibus itaque nobis perspiciatis eveniet
+                        molestiae beatae quos. Ullam asperiores minima
+                        exercitationem, tempore voluptates error odit fuga.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-cell">
+                  <div class="about__person">
+                    <div class="about__person-img">
+                      <img src="/images/max.png" />
+                    </div>
+                    <div class="about__person--text">
+                      <div class="person__name">
+                        <p class="person__name--first">Max</p>
+                        <p class="person__name--second">selfish</p>
+                      </div>
+                      <p class="person__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolorem, temporibus itaque nobis perspiciatis eveniet
+                        molestiae beatae quos. Ullam asperiores minima
+                        exercitationem, tempore voluptates error odit fuga.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-cell">
+                  <div class="about__person">
+                    <div class="about__person-img">
+                      <img src="/images/ping.png" />
+                    </div>
+                    <div class="about__person--text">
+                      <div class="person__name">
+                        <p class="person__name--first">Ping</p>
+                        <p class="person__name--second">Nihao</p>
+                      </div>
+                      <p class="person__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolorem, temporibus itaque nobis perspiciatis eveniet
+                        molestiae beatae quos. Ullam asperiores minima
+                        exercitationem, tempore voluptates error odit fuga.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -81,9 +202,9 @@
         <div id="page-products"></div>
       </article>
 
-      <article id="about">
+      <!-- <article id="about">
         <div id="about-page" class="about"></div>
-      </article>
+      </article> -->
 
       <article id="contact">
         <div id="contact-page" class="contact">
@@ -263,6 +384,58 @@
       <p>&copy 2021 EL TIGRE inc.</p>
     </footer>
 
+    <script id="template-header" type="text/x-handlebars-template">
+      <div class='header__title--flex'>
+        <h1 class='title--first'> {{first}}</h1>
+        <h1 class='title--second'> {{second}}</h1>
+        <p></p>
+      </div>
+    </script>
+    <script id="template-home" type="text/x-handlebars-template">
+      <div>
+
+        <!-- <div id='products-page'>
+
+          <div class='container__products'>
+            <div class='row'>
+              <div class='{{class-content}} col-sm-6 product'>
+                <h3>{{name}}</h3>
+                <div class='product__content'>
+                  <p class='product__before'></p>
+                  <p class='product__text'>
+                    {{{description}}}
+                  </p>
+                  <div class='product__params'>
+                    <div>
+                      <h5 class='inline-block'>ROASTING:</h5>
+                      <h5 class='inline-block gold'>{{roasting}}</h5>
+                    </div>
+                    <div>
+                      <h5 class='inline-block'>INTENSITY:</h5>
+                      <h5 class='inline-block gold'>{{intensity}}</h5>
+                    </div>
+                  </div>
+                  <div class='laur'>
+                    {{{laur}}}
+                  </div>
+                </div>
+              </div>
+              <div class='{{class-img}} col-sm-6 image'>
+                {{{images}}}
+                <div class='price'>
+                  <div class='price__background'></div>
+                  <div class='price__old'><p>{{price-old}} &#x24</p></div>
+                  <div class='price__new'><h3>{{price-new}} &#x24</h3></div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div> -->
+      </div>
+    </script>
+
     <script id="template-products" type="text/x-handlebars-template">
       <div id='products-page'>
         <div class='container__products'>
@@ -284,9 +457,10 @@
                     <h5 class='inline-block gold'>{{intensity}}</h5>
                   </div>
                 </div>
-                <div class='laur'>
-                  {{{laur}}}
-                </div>
+
+              </div>
+              <div class='laur'>
+                {{{laur}}}
               </div>
             </div>
             <div class='{{class-img}} col-sm-6 image'>
@@ -302,7 +476,10 @@
         </div>
       </div>
     </script>
+    <script src="vendor/flickity/flickity.pkgd.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
+    <script src="vendor/flickity/range-slider.min.js" type="module"></script>
     <script src="js/script.js" type="module"></script>
   </body>
 </html>

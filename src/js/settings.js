@@ -1,19 +1,19 @@
 /* global Handlebars,*/
 export const select = {
   templateOf: {
+    home: '#template-home',
     products: '#template-products',
-    // menuProduct: '#template-menu-product',
-    // cartProduct: '#template-cart-product', // CODE ADDED
-    // bookingWidget: '#template-booking-widget',
-    //homePage: '#template-home-page',
+    header: '#template-header',
   },
   containerOf: {
     pages: '#pages',
+    home: '#home',
     productsPage: '#page-products',
     products: '#products',
     product: '#products-page',
     about: '#about',
     contact: '#contact',
+    header: '#header',
   },
   nav: '.nav a',
 };
@@ -25,30 +25,18 @@ export const classNames = {
   pages: {
     active: 'active',
   },
-  // menuProduct: {
-  //   wrapperActive: 'active',
-  //   imageVisible: 'active',
-  // },
-  //   cart: {
-  //     wrapperActive: 'active',
-  //   },
-  //   booking: {
-  //     loading: 'loading',
-  //     tableBooked: 'booked',
-  //     selected: 'selected',
-  //     table: 'table', ////////////////////////
-  //   },
-  //   nav: {
-  //     active: 'active',
-  //   },
-  //   pages: {
-  //     active: 'active',
-  //   },
 };
 
 export const templates = {
   productsPage: Handlebars.compile(
     document.querySelector(select.templateOf.products).innerHTML
+  ),
+
+  homePage: Handlebars.compile(
+    document.querySelector(select.templateOf.home).innerHTML
+  ),
+  headerTitle: Handlebars.compile(
+    document.querySelector(select.templateOf.header).innerHTML
   ),
 };
 
@@ -59,5 +47,6 @@ export const settings = {
       window.location.hostname +
       (window.location.hostname == 'localhost' ? ':3131' : ''),
     products: 'products',
+    titles: 'titles',
   },
 };

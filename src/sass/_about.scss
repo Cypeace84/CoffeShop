@@ -19,31 +19,55 @@
       transform: translateX(-50%);
       background-color: $color-gold;
       height: 0.5vw;
-      margin-top: 2vw;
+      margin-top: 1vw;
       margin-bottom: 1vw;
-    }
-
-    h2 {
-      letter-spacing: 10px;
     }
   }
 
-  .about__text {
-    color: $color-white;
-    font-style: $font-italic;
-    width: 60%;
-    margin: 40px auto 0 auto;
-    text-align: start;
-    display: flex;
-    flex-direction: column;
+  .about__person {
+    margin-top: 4vw;
 
-    .about__text-txt {
-      padding: 2.4vw;
-      font-size: 2.4vw;
+    .about__person-img {
+      display: inline-block;
+      width: 22%;
+
+      img {
+        width: 100%;
+      }
     }
 
-    .about__text-txt:last-child {
-      align-self: flex-end;
+    .about__person--text {
+      color: $color-white;
+      width: 70%;
+      text-align: start;
+      display: inline-block;
+      flex-direction: column;
+      letter-spacing: 1px;
+
+      .person__name {
+        display: flex;
+
+        .about__text-txt:last-child {
+          align-self: flex-end;
+        }
+
+        .person__name--first {
+          padding: 1vw 0px 1vw 2.4vw;
+          font-weight: $font-regular;
+          font-size: 3vw;
+        }
+
+        .person__name--second {
+          padding: 1vw 0px 1vw 1vw;
+          font-weight: $font-bold;
+          font-size: 3vw;
+        }
+      }
+      .person__text {
+        padding: 2.4vw;
+        font-size: 2.4vw;
+        font-style: $font-italic;
+      }
     }
   }
 }

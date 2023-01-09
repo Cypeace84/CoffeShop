@@ -2,7 +2,6 @@
   "products":[
     {
        "id":1,
-       "class":"",
        "name":"01. LA LAGARTIJA",
        "description":"LA LAGARTIJA Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur dolor deserunt nam quisquam, repellat magni at sint commodi eaque.",
        "images":[
@@ -33,7 +32,6 @@
 
    {
     "id":3,
-    "class":"",
     "name":"03. LA CUCARACHA",
     "description":"LA CUCARACHA Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur dolor deserunt nam quisquam, repellat magni at sint commodi eaque.",
     "images":[
@@ -45,5 +43,12 @@
     "price-old":"36",
     "price-new":"25"
  }
+  ],
+
+  "titles":[
+    { "first": "''", "second": "''" },
+    { "first": "HOME OF","second": "ORIGINAL TASTES" },
+    { "first": "REAL VENEZUELA","second": "REAL COFFEE" },
+    { "first": "TASTE REAL","second": "VENEZUELA"}
   ]
 }
