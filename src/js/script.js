@@ -195,7 +195,7 @@ const app = {
     const thisApp = this;
 
     let titleNumber = 0;
-    titleNumber = Math.floor(Math.random() * 3 + 1);
+    titleNumber = Math.floor(Math.random() * 3);
 
     const title = thisApp.data.titles[titleNumber];
 
